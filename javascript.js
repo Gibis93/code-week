@@ -13,30 +13,9 @@ const createCard = (title, completed) => {
 
     divEl.append(h4El, statusEl);
     completed ? divTrue.appendChild(divEl) : divFalse.appendChild(divEl);
-    
-    // appendCard.divEl(completed)
 };
 
-// const appendCard = (card, completed) => {
-  /*
-  if (completed) {
-  
-    divTrue.appendChild(card);
 
-  }
-  else {
-    divFalse.appendChild(card);
-  }
-  */
-//}
-
-/*h4El.classList.toggle("showH4El")*/
-
-/*$(function() {
-  $("divEl").click(function(){
-    $("h4El").toggle("h4El");
-  })
-});*/
 
 let dataBooking = [];
 
@@ -57,7 +36,5 @@ const Bottone = document.querySelector("button");
 
 Bottone.addEventListener('click', () => {
   createCard(formatMinText(AddBooking.value), false);
-
   AddBooking.value = "";
-
 });

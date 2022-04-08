@@ -8,8 +8,7 @@ body {
   font-family: 'Arvo', serif;
   max-width: 100%;
   background: #51d3a310;
-  
-  }
+}
 
   h1 {
     display: flex;
@@ -19,8 +18,6 @@ body {
     font-size: 50px;
     color: #51d3a3;
     line-height: 30px;
-
-
   }
 
   h3 {
@@ -41,13 +38,6 @@ body {
     margin: 0;
     font-weight: 200;
     font-size: 0.8rem;
-    
-    /*overflow: hidden;
-    text-overflow: ellipsis;
-    display: block;
-    white-space: nowrap;
-    width:100px;*/
-  
   } 
 
   .flex-container-false {
@@ -65,7 +55,6 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
     word-wrap: break-word;
-
   }
 
   .flex-container-true {
@@ -138,7 +127,6 @@ body {
     font-family: 'Arvo', serif;
     font-weight: 600;
     color: #696969;
-       
   }
 
   #submit {
